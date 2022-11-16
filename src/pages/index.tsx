@@ -2,8 +2,7 @@ import Head from "next/head";
 import { Fragment } from "react";
 
 import { NextPageWithLayout } from "~/types/common.types";
-
-import Layout from "~/components/Layout/Layout.component";
+import { Layout } from "~/components/Layout";
 
 const Home: NextPageWithLayout = () => {
   return (
